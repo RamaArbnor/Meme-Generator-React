@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+}
+
+nav {
+  background-color: darkcyan;
+}
+
+.navContainer {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  height: 3em;
+  /* border: 1px solid black; */
+}
+
+
+
+.navContainer h1 {
+  color: wheat;
+  padding: 10px 25px;
+}
+
+.Main {
+  width: 50%;
+  margin: auto;
+  margin-top: 5em;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  /* align-items: center; */
+}
+
+.Main input {
+  padding: 10px 20px;
+  margin: 10px 20px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+.meme {
+  width: 50%;
+  margin: auto;
+  margin-top: 2em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-text {
+  position: absolute;
+  top: 0.5rem;
+  font-size: 3em;
+  font-weight: 700;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px black;
+}
+
+.bot-text {
+  position: absolute;
+  bottom: 0.5rem;
+  font-size: 3em;
+  font-weight: 700;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px black;
+
+}
+
+.button-div {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+button {
+  height: 50px;
+  width: 180px;
+  background-color: darkcyan;
+  border: 0px;
+  color: white;
+  font-weight: 700;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 2px black;
+}
+
+.meme img {
+  max-width: 200%;
+}
+
+/* botton:hover button{
+  background-color: cyan;
+} */
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+  .navContainer {
+    width: 90%;
+  }
+
+  .navContainer img {
+    max-width: 50px;
+  }
+
+  .top-text, .bot-text {
+    font-size: 1em;
+  }
+
+  .Main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+}
